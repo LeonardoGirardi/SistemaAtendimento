@@ -1,0 +1,38 @@
+.logo_container {
+    -fx-background-color: #010d40;
+}
+
+.logo_container Label {
+    -fx-font-color: #FFFFFF;
+    -fx-text-fill: white;
+    -fx-text-alignment: center;
+    -fx-font-weight: bold;
+    -fx-font-size: 2.5em;
+    -fx-alignment: middle;
+}
+
+.form_register_container {
+    -fx-spacing: 15;
+    -fx-alignment: top_left;
+}
+
+.form_register_container Label {
+    -fx-font-size: 1.1em;
+    -fx-font-weight: bold;
+}
+
+.form_register_container TextField {
+    -fx-pref-height: 35;
+    -fx-font-size: 1.2em;
+}
+
+.form_register_container Button {
+    -fx-background-color: #d15400;
+    -fx-text-fill: #EEEEEE;
+    -fx-pref-width: 350;
+    -fx-pref-height: 30;
+    -fx-font-size: 1.2em;
+    -fx-font-weight: bold;
+    -fx-font-color: #EEEEEE;
+    -fx-text-alignment: center !important;
+}

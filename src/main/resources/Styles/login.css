@@ -1,0 +1,75 @@
+.login_container{
+    -fx-background-color: #EEEEEE;
+}
+
+/*Logo Container */
+
+.login_logo_container{
+    -fx-background-color: #010d40;
+}
+
+.login_logo_container Text{
+    -fx-font-size: 3em;
+    -fx-fill: #FFFFFF;
+    -fx-font-family: "JetBrains Mono ExtraBold";
+}
+
+/*Account selector choice-box */
+
+.account_selector {
+    -fx-background-color:#010d40;
+}
+
+.account_selector .label {
+    -fx-text-fill: #EEEEEE;
+}
+
+.account_selector .arrow {
+    -fx-text-fill: #EEEEEE;
+}
+
+#choice-box-popup-menu {
+    -fx-background-color:#e1630f;
+}
+
+/* Login Form Styles */
+
+#choice-prompt-text{
+    -fx-font-weight: 400;
+}
+
+.login_form_container {
+    -fx-spacing: 15;
+    -fx-alignment: top_left;
+}
+
+.login_form_container Label{
+    -fx-font-size: 1.1em;
+    -fx-font-weight: bold;
+}
+
+.login_input_field{
+    -fx-pref-height: 35;
+    -fx-font-size: 1.2em;
+}
+
+.login_form_container Button {
+    -fx-background-color: #d15400;
+    -fx-text-fill: #EEEEEE;
+    -fx-pref-width: 350;
+    -fx-pref-height: 30;
+    -fx-font-size: 1.2em;
+    -fx-font-weight: bold;
+    -fx-font-color: #EEEEEE;
+    -fx-text-alignment: center !important;
+}
+
+.login_form_container Button:hover {
+    -fx-cursor: hand;
+}
+
+.error_lbl {
+    -fx-text-fill: #FF0000;
+}
+
+
