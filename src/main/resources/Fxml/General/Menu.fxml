@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="752.0" prefWidth="205.0" styleClass="main_menu_container" stylesheets="@../../Styles/menu.css" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="programacao.s_a.Controllers.General.MenuController">
+    <AnchorPane prefHeight="727.0" prefWidth="174.0" styleClass="left_container">
+        <VBox layoutX="3.0" layoutY="214.0" prefHeight="362.0" prefWidth="153.0" styleClass="menu_container">
+            <Button fx:id="listClientsBtn" onAction="#onListClientsClick" mnemonicParsing="false" styleClass="menu_container" text="Clientes" />
+            <Button fx:id="newTicketBtn" onAction="#onNewTicketClick" mnemonicParsing="false" prefWidth="148.0" styleClass="menu_container" text="Novo Ticket" />
+            <Button fx:id="openTicketBtn" onAction="#onOpenTicketClick" mnemonicParsing="false" prefWidth="140.0" styleClass="menu_container" text="Tickets Abertos" />
+            <Button fx:id="closedTicketBtn" onAction="#onClosedTicketClick" mnemonicParsing="false" prefWidth="150.0" styleClass="menu_container" text="Tickets Fechados" />
+            <Button fx:id="faqBtn" onAction="#onFaqClick" mnemonicParsing="false" prefWidth="130.0" styleClass="menu_container" text="FAQ" />
+            <Line endX="100.0" startX="246.49290466308594" startY="-2.268195094075054E-4" />
+            <Button fx:id="exitBtn" onAction="#onExitClick" mnemonicParsing="false" styleClass="alt_menu_btn" text="Sair">
+                <graphic>
+                    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                </graphic>
+            </Button>
+        </VBox>
+    </AnchorPane>
+</VBox>

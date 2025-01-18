@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="424.0" prefWidth="625.0" stylesheets="@../../Styles/register.css"
+            xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="programacao.s_a.Controllers.Client.CreateAccountController">
+   <VBox layoutX="240.0" layoutY="14.0" prefHeight="418.0" prefWidth="350.0" styleClass="form_register_container">
+      <Label fx:id="usernameLabel" text="Nome de Usuario:"/>
+      <TextField fx:id="usernameField" prefHeight="26.0" prefWidth="301.0"/>
+      <Label fx:id="passwordLabel" text="Senha:"/>
+      <TextField fx:id="passwordField" prefHeight="26.0" prefWidth="389.0"/>
+      <Label fx:id="emailLabel" text="E-mail"/>
+      <TextField fx:id="emailField" prefHeight="26.0" prefWidth="389.0"/>
+      <Label text="Confirme a Senha:"/>
+      <TextField prefHeight="26.0" prefWidth="238.0"/>
+      <Button fx:id="createAccBtn" mnemonicParsing="false" text="Sign Up" onAction="#goToFirstPage"/>
+   </VBox>
+   <VBox layoutY="-1.0" prefHeight="434.0" prefWidth="217.0" styleClass="logo_container"
+         stylesheets="@../../Styles/register.css">
+      <Label prefHeight="46.0" prefWidth="210.0"/>
+   </VBox>
+   <ScrollPane layoutX="69.0" layoutY="-219.0" prefHeight="200.0" prefWidth="200.0"/>
+</AnchorPane>

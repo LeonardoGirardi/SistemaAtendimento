@@ -5,10 +5,9 @@
 .logo_container Label {
     -fx-font-color: #FFFFFF;
     -fx-text-fill: white;
-    -fx-text-alignment: center;
     -fx-font-weight: bold;
     -fx-font-size: 2.5em;
-    -fx-alignment: middle;
+    -fx-alignment: center;
 }
 
 .form_register_container {
