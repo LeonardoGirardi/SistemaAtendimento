@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="125.0" prefWidth="759.0" styleClass="ticket_cell_container" stylesheets="@../../styles/ticketcell.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="programacao.s_a.controllers.general.TicketCellController">
+    <FontAwesomeIconView fx:id="ticketIcon" fill="#17b252" glyphName="TICKET" layoutX="14.0" layoutY="88.0" selectionFill="#ac1c1c" size="80" styleClass="ticket_cell_container" text="" wrappingWidth="17.5999755859375" />
+    <VBox alignment="CENTER_LEFT" layoutX="113.0" layoutY="13.0" prefHeight="100.0" prefWidth="621.0" spacing="10.0">
+        <!-- Título ou assunto do ticket -->
+        <Label fx:id="ticketNameLbl" prefHeight="26.0" prefWidth="230.0" style="-fx-font-size: 16px; -fx-font-weight: bold;" text="Título do Ticket" />
+
+        <!-- Data de abertura e status -->
+        <HBox alignment="CENTER_LEFT" prefHeight="4.0" prefWidth="614.0" spacing="15.0">
+            <Label fx:id="ticketOpenDateLbl" style="-fx-font-size: 12px;" text="Data de Abertura: 2025-01-15" />
+            <Label fx:id="ticketStatusLbl" style="-fx-font-size: 12px; -fx-text-fill: green;" text="Status: Aberto" />
+        </HBox>
+
+        <!-- Botões -->
+        <HBox alignment="CENTER_LEFT" spacing="10.0">
+            <Button fx:id="viewTicketBtn" prefHeight="26.0" prefWidth="171.0" styleClass="ver_mais_btn" text="Ver Mais" />
+            <Button fx:id="closeTicketBtn" prefHeight="26.0" prefWidth="118.0" styleClass="close_ticket_btn" text="Fechar Ticket" />
+         <Button fx:id="cancelTicketBtn" mnemonicParsing="false" prefHeight="26.0" prefWidth="123.0" styleClass="cancel_btn" text="Cancelar" />
+        </HBox>
+    </VBox>
+</AnchorPane>

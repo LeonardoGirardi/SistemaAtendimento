@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="750.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="programacao.s_a.controllers.client.NewTicketController">
+   <Label layoutX="28.0" layoutY="27.0" style="-fx-font-size: 20px; -fx-font-weight: bold;" text="Abrir novo Ticket" />
+   <VBox layoutX="28.0" layoutY="79.0" prefHeight="633.0" prefWidth="782.0" spacing="10">
+      <padding>
+         <Insets bottom="10" left="10" right="10" top="10" />
+      </padding>
+      <Label text="Assunto:" />
+      <TextField fx:id="subjectField" prefHeight="58.0" prefWidth="782.0" />
+      <Label text="Mensagem:" />
+      <TextArea fx:id="messageArea" prefHeight="238.0" prefWidth="762.0" />
+
+      <!-- Seção para selecionar arquivo via botão -->
+      <Label text="Adicionar Anexo (Selecionar Arquivo):" />
+      <HBox spacing="10">
+         <Button fx:id="selectFileBtn" mnemonicParsing="false" text="Selecionar Arquivo" />
+         <Label fx:id="selectedFileLbl" text="Nenhum arquivo selecionado" />
+      </HBox>
+
+      <!-- Área de drag and drop -->
+      <Label text="OU arraste e solte o arquivo aqui:" />
+      <AnchorPane fx:id="dropArea" prefHeight="100" prefWidth="782.0" style="-fx-border-color: #999999; -fx-border-width: 2; -fx-border-style: dashed;">
+         <Label fx:id="dropAreaLabel" layoutX="10" layoutY="40" text="Arraste o arquivo para cá" />
+      </AnchorPane>
+
+      <Button fx:id="createTicketBtn" mnemonicParsing="false" text="Abrir Ticket" />
+   </VBox>
+</AnchorPane>

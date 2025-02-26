@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<Pane prefHeight="750.0" prefWidth="850.0" styleClass="clients_container" stylesheets="@../../styles/Client.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="programacao.s_a.controllers.admin.AdminTicketListController">
+    <Text fx:id="titleOfList" layoutX="14.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lista de Clientes" wrappingWidth="377.0000057220459" />
+    <ListView fx:id="ticketListView" layoutX="14.0" layoutY="41.0" prefHeight="691.0" prefWidth="800.0" />
+</Pane>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="750.0" prefWidth="850.0" stylesheets="@../../styles/ClientCell.css" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="programacao.s_a.controllers.admin.AdminFaqController">
+
+    <VBox prefHeight="750.0" prefWidth="730.0" spacing="10" stylesheets="@../../styles/Client.css" AnchorPane.leftAnchor="10" AnchorPane.rightAnchor="10" AnchorPane.topAnchor="10">
+        <Label style="-fx-font-size: 18px; -fx-font-weight: bold;" text="Admin FAQ" />
+
+        <!-- ListView para exibir as FAQs -->
+        <ListView fx:id="faqListView" prefHeight="451.0" prefWidth="830.0" styleClass="client_cell_container" />
+
+        <!-- Área para criar nova FAQ -->
+        <Label style="-fx-font-size: 14px; -fx-font-weight: bold;" text="Criar Nova FAQ" />
+        <TextField fx:id="questionField" prefHeight="31.0" prefWidth="830.0" promptText="Digite a pergunta" />
+        <TextArea fx:id="answerField" prefHeight="125.0" prefWidth="830.0" promptText="Digite a resposta" wrapText="true" />
+        <Button fx:id="createFaqButton" prefHeight="19.0" prefWidth="216.0" text="Criar FAQ" textAlignment="JUSTIFY">
+         <VBox.margin>
+            <Insets />
+         </VBox.margin></Button>
+    </VBox>
+</AnchorPane>

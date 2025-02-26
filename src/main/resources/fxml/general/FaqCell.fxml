@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="faqCell" prefHeight="127.0" prefWidth="700.0" spacing="5" styleClass="faq_cell_container" stylesheets="@../../styles/Faq.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="programacao.s_a.controllers.general.FaqCellController">
+    <Label fx:id="questionLabel" style="-fx-font-weight: bold; -fx-font-size: 14px;" styleClass="acc_display_lbl" />
+    <Label fx:id="answerLabel" wrapText="true" />
+</VBox>

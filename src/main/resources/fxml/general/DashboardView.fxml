@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="basePane" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="programacao.s_a.controllers.general.DashboardViewController">
+   <center>
+      <Pane fx:id="centerContainer" prefHeight="752.0" prefWidth="850.0" BorderPane.alignment="CENTER">
+         <HBox layoutX="168.0" layoutY="136.0" prefHeight="100.0" prefWidth="515.0"/>
+      </Pane>
+   </center>
+   <left>
+      <AnchorPane fx:id="leftContainer" prefHeight="752.0" prefWidth="205.0" BorderPane.alignment="CENTER" />
+   </left>
+</BorderPane>

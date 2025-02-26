@@ -1,0 +1,7 @@
+.faq_cell_container {
+    -fx-padding: 1.5em;
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(three-pass-box, #DDDDDD, 5, 0, 0, 7);
+}
+

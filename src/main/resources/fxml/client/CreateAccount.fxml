@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="426.0" prefWidth="625.0" stylesheets="@../../styles/register.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="programacao.s_a.controllers.client.CreateAccountController">
+   <VBox layoutX="241.0" layoutY="47.0" prefHeight="356.0" prefWidth="350.0" styleClass="form_register_container">
+      <Label fx:id="usernameLabel" text="Nome de Usuario:" />
+      <TextField fx:id="usernameField" prefHeight="26.0" prefWidth="301.0" />
+      <Label fx:id="passwordLabel" text="Senha:" />
+      <PasswordField fx:id="passwordField" prefHeight="36.0" prefWidth="350.0" />
+      <Label fx:id="emailLabel" text="E-mail" />
+      <TextField fx:id="emailField" prefHeight="26.0" prefWidth="389.0" />
+      <Button fx:id="createAccBtn" mnemonicParsing="false" text="Sign Up" />
+   </VBox>
+   <VBox layoutX="-5.0" prefHeight="442.0" prefWidth="223.0" styleClass="logo_container" stylesheets="@../../styles/register.css" />
+   <ImageView fitHeight="155.0" fitWidth="173.0" layoutX="27.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../../images/LOGO%20SAC/LOGO_SAC_LEO_SEM%20FUNDO_V3.png" />
+      </image>
+   </ImageView>
+</AnchorPane>
