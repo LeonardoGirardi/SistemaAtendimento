@@ -78,18 +78,15 @@ public class ViewFactory {
         FXMLView dashboardView = loadFXML("/fxml/general/DashboardView.fxml");
         dashboard = dashboardView.getController();
 
-        // Define a cena com o dashboard no stage existente
         Scene scene = new Scene(dashboardView.getRoot());
         stage.setScene(scene);
         stage.show();
 
-        // Configura o menu à esquerda de acordo com o tipo de conta
         if (user.getAccountType().equals(AccountType.CLIENT)) {
             dashboard.setLeftView(loadFXML("/fxml/client/ClientMenu.fxml").getRoot());
         } else if (user.getAccountType().equals(AccountType.ADMIN)) {
             dashboard.setLeftView(loadFXML("/fxml/admin/AdminMenu.fxml").getRoot());
         }
-        // Configura o centro com a view padrão
         dashboard.setCenterView(showDefaultDashboardView(user));
     }
 
@@ -103,6 +100,7 @@ public class ViewFactory {
     }
 
    // Admin List of Clients methods
+
     public Node loadClientsList() throws IOException {
         FXMLView listView = loadFXML("/fxml/admin/AdminListView.fxml");
         AdminListViewController admin = listView.getController();
