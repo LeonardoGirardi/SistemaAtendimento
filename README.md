@@ -73,6 +73,26 @@ Este projeto é um trabalho semestral da matéria de Programação de Computador
 4. Login:
       - Cliente: Crie uma conta diretamente no sistema
       - Administrador: Login com usuário padrão: ```Admin```, senha: ```admin123```
+  
+
+## 🖼️ Capturas de Tela
+
+### Tela de Login e Dashboard
+
+![Tela de Logim](/src/main/resources/images/LOGO%20SAC/imgLogin.png)
+![Tela de Ferramentas do Cliente](/src/main/resources/images/LOGO%20SAC/imgDashboard.png)
+
+### Tela de Criação de Ticket
+
+![Tela de Logim](/src/main/resources/images/LOGO%20SAC/imgCreateTicket.png)
+
+### Tela de FAQ
+
+![Tela de Logim](/src/main/resources/images/LOGO%20SAC/imgFaq.png)
+
+### Tela de Listar Clientes
+
+![Tela de Logim](/src/main/resources/images/LOGO%20SAC/imgListClients.png)
 
 ## 🔥 Melhorias Futuras
 
